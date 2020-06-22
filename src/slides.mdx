@@ -1,14 +1,17 @@
+import { Appear, OrderedList, ListItem } from 'spectacle'
 import 'excalidraw/dist/excalidraw.min.css'
 import './styles.css'
-import { Markdown, Text } from 'spectacle'
 
 import Title from './Title'
 import FullscreenMedia from './FullscreenMedia'
 import Hobbies from './Hobbies'
 import Flow from './Flow'
+import ConsciousnessControl from './ConsciousnessControl'
 
 import book from './images/book.jpg'
 import yesomg from './videos/yesomg.mp4'
+import multitasking from './videos/multitasking.mp4'
+import brainfood from './videos/brainfood.mp4'
 
 <Title fontSize='92px' center={false} verticalCenter>
   {`Flow: a
@@ -73,27 +76,69 @@ Ansiedade / Tédio
 
 ---
 
-# As 7 condições que caracterizam o flow
+<Title>Beleza, mas como eu chego lá?</Title>
 
-Notes: Tu precisa sentir pelo menos uma dessas coisas, mas geralmente tu sente todas ao mesmo tempo
-
----
-
-# Beleza, mas como eu chego lá?
-
-- Atenção
 - Gostar do que está fazendo
-- Controle da consciência
+- Manter o foco
+- Adquirir controle sobre a consciência
 
 ---
 
-# Controle da consciência
+<FullscreenMedia src={multitasking} type='video'>
+  {`Manter o foco:
+  nada de
+  multitasking`}
+</FullscreenMedia>
+
+Notes: Prestamos atenção à 110 pedaços de informação por segundo
+
+Isso parece muito, mas não é
+
+---
+
+<Title>Controle da Consciência</Title>
+
+<ConsciousnessControl />
 
 Notes: Como perceber o que está sentindo, para saber o próximo passo
 
 ---
 
-# Barreira inicial quebrada
+<Title>Os 8 elementos do flow</Title>
+
+<OrderedList fontSize={36}>
+  <ListItem>Balanço perfeito entre habilidade e desafio</ListItem>
+  <ListItem>Meta clara e feedback imediato</ListItem>
+  <ListItem>Alto nível de concentração</ListItem>
+  <ListItem>Sensação de controle</ListItem>
+  <ListItem>Ausência de esforço</ListItem>
+  <ListItem>Percepção do tempo alterada</ListItem>
+  <ListItem>Ação e consciência viram uma coisa só</ListItem>
+  <ListItem>Motivação intrínseca</ListItem>
+</OrderedList>
+
+Notes: Tu precisa sentir pelo menos uma dessas coisas, mas geralmente tu sente todas ao mesmo tempo
+
+2 - Eu sei exatamente o que eu tô fazendo e o que tenho de recompensa
+
+3 - Nada em volta me distrai
+
+4 - Tenho controle total sobre as ações que eu tô tomando
+
+5 - Não tenho esforço ao realizar a ação por que tenho o que é preciso pra realizá-la
+
+6 - Não vejo o tempo passar de tão concentrado que estou
+
+7 - Não há brecha para preocupações externas
+
+8 - O próprio fato de concluir a atividade já é a recompensa
+
+---
+
+<FullscreenMedia inverted src={brainfood} type='video'>
+  {`Go with
+  the Flow`}
+</FullscreenMedia>
 
 Notes: Conhecer o conceito
 

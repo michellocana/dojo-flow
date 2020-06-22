@@ -44,7 +44,7 @@ const template = () => (
 
 const Presentation = () => (
   <MDXProvider components={mdxComponentMap}>
-    <Deck loop theme={theme} template={template}>
+    <Deck loop theme={theme} template={template} transitionEffect='none'>
       {slides
         .map((MDXSlide, i) => [MDXSlide, notes[i]])
         .map(([MDXSlide, MDXNote], i) => (

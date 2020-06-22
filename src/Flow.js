@@ -1,11 +1,11 @@
 import React from 'react'
 import 'excalidraw/dist/excalidraw.min.css'
 
-import flow from './images/flow.svg'
-
 import './Flow.css'
 
 function Flow() {
+  // TODO talvez fazer uma versão com as fontes default do slide
+
   return (
     <div className='flow'>
       <a
