@@ -1,0 +1,43 @@
+.title {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  font-family: 'Merriweather';
+}
+
+.titleCenter {
+  align-items: center;
+}
+
+.titleVerticalCenter {
+  flex: 1;
+  justify-content: center;
+}
+
+.title span {
+  position: relative;
+  padding: 0.15em;
+}
+
+.title span::before,
+.title span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  z-index: -1;
+}
+
+.title span::before {
+  transform: skewX(-7deg) translate(-0.1em, 0.1em);
+  background: currentColor;
+}
+
+.title span::after {
+  background: #c5f8ff;
+  transform: skewX(-7deg);
+}

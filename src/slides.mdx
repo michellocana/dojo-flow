@@ -1,18 +1,20 @@
 import 'excalidraw/dist/excalidraw.min.css'
 import './styles.css'
-import { Markdown } from 'spectacle'
+import { Markdown, Text } from 'spectacle'
 
 import FullscreenMedia from './FullscreenMedia'
+import Title from './Title'
 
-import cover from './images/cover.jpg'
-
-<FullscreenMedia src={cover} type='image'>
-  <Markdown># Flow: a psicologia da experiência ótima</Markdown>
-</FullscreenMedia>
+<Title fontSize='92px' center={false} verticalCenter>
+  {`Flow: a
+  psicologia da
+  experiência
+  ótima`}
+</Title>
 
 ---
 
-# Livro
+<Title>Livro</Title>
 
 - Flow: The Psychology of Optimal Experience (1990)
 - Escrito por Mihaly Csikszentmihalyi

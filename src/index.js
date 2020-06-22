@@ -3,34 +3,28 @@ import { render } from 'react-dom'
 
 import { MDXProvider } from '@mdx-js/react'
 
-import { Deck, FlexBox, Slide, Box, Progress, FullScreen, Notes, mdxComponentMap } from 'spectacle'
+import { Deck, FlexBox, Slide, Box, Progress, FullScreen, Title, Notes, mdxComponentMap } from 'spectacle'
 
 // SPECTACLE_CLI_MDX_START
 import slides, { notes } from './slides.mdx'
 // SPECTACLE_CLI_MDX_END
 
-/*
-fonts
-montserrat bold
-raleway regular
-*/
-
 // SPECTACLE_CLI_THEME_START
 const theme = {
   colors: {
-    primary: '#0d0d0d',
-    secondary: '#0d0d0d',
-    tertiary: '#f2f2f2',
-    quaternary: '#595959',
-    quinary: '#0d0d0d'
+    primary: '#003f48',
+    secondary: '#04353C',
+    tertiary: '#f5feff',
+    quaternary: '#8FB6BB',
+    quinary: '#04353C'
   },
   fontSizes: {
     header: '64px',
     paragraph: '28px'
   },
   fonts: {
-    header: 'Virgil',
-    text: 'Virgil'
+    header: 'Merriweather',
+    text: 'Raleway'
   }
 }
 // SPECTACLE_CLI_THEME_END
