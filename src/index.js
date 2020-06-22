@@ -9,15 +9,20 @@ import { Deck, FlexBox, Slide, Box, Progress, FullScreen, Notes, mdxComponentMap
 import slides, { notes } from './slides.mdx'
 // SPECTACLE_CLI_MDX_END
 
+/*
+fonts
+montserrat bold
+raleway regular
+*/
+
 // SPECTACLE_CLI_THEME_START
 const theme = {
   colors: {
-    primary: '#333',
-    secondary: '#111',
-    tertiary: '#f0f0f0'
-    // TODO
-    // quaternary: '#ffc951',
-    // quinary: '#8bddfd'
+    primary: '#0d0d0d',
+    secondary: '#0d0d0d',
+    tertiary: '#f2f2f2',
+    quaternary: '#595959',
+    quinary: '#0d0d0d'
   },
   fontSizes: {
     header: '64px',
