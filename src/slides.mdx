@@ -2,8 +2,12 @@ import 'excalidraw/dist/excalidraw.min.css'
 import './styles.css'
 import { Markdown, Text } from 'spectacle'
 
-import FullscreenMedia from './FullscreenMedia'
 import Title from './Title'
+import FullscreenMedia from './FullscreenMedia'
+import Hobbies from './Hobbies'
+
+import book from './images/book.jpg'
+import yesomg from './videos/yesomg.mp4'
 
 <Title fontSize='92px' center={false} verticalCenter>
   {`Flow: a
@@ -14,12 +18,14 @@ import Title from './Title'
 
 ---
 
-<Title>Livro</Title>
+<FullscreenMedia src={book} type='image'>
+  {`Mihaly
+  Csikszentmihalyi`}
+</FullscreenMedia>
 
-- Flow: The Psychology of Optimal Experience (1990)
-- Escrito por Mihaly Csikszentmihalyi
+Notes: Flow: The Psychology of Optimal Experience (1990)
 
-Notes: Pesquisa com diferentes áreas de atuação
+Pesquisa com diferentes áreas de atuação
 
 O que de fato traz felicidade na vida das pessoas?
 
@@ -31,33 +37,40 @@ Entrevista com compositor (êxtase)
 
 ---
 
-# Sensação de êxtase
+<FullscreenMedia inverted src={yesomg} type='video'>
+  {`Sensação de
+  êxtase`}
+</FullscreenMedia>
 
-Notes: várias pessoas descreviam que o que as faziam felizes era a sensação de êxtase ao fazer o que gostam (escalada, composição musical, negociar preço de produto)
+Notes: Várias pessoas descreviam que o que as faziam felizes era a sensação de êxtase ao fazer o que gostam (escalada, composição musical, negociar preço de produto)
 
 Todas descreviam esse momento como um momento de FLUIDEZ
 
+Plena capacidade e pleno controle sobre o que estava fazendo
+
 ---
 
-# Escolha um hobby
+<Title>Escolha um hobby</Title>
 
-Notes: de preferência que seja uma coisa que se pratica de forma ativa
+<Hobbies />
 
-por exemplo, assistir série é hobby, mas é uma coisa passiva
+Notes: De preferência que seja uma coisa que se pratica de forma ativa
 
-flow não se aplica somente à trabalho
+Por exemplo, assistir série é hobby, mas é uma coisa passiva
+
+Flow não se aplica somente à trabalho
 
 ---
 
 # Gráfico do Flow
 
-Notes: máximo engajamento, máximo aproveitamento e pouco esforço
+Notes: Máximo engajamento, máximo aproveitamento e pouco esforço
 
-ansiedade / tédio
+Ansiedade / Tédio
 
 # As 7 condições que caracterizam o flow
 
-Notes: tu precisa sentir pelo menos uma dessas coisas, mas geralmente tu sente todas ao mesmo tempo
+Notes: Tu precisa sentir pelo menos uma dessas coisas, mas geralmente tu sente todas ao mesmo tempo
 
 ---
 
@@ -71,17 +84,17 @@ Notes: tu precisa sentir pelo menos uma dessas coisas, mas geralmente tu sente t
 
 # Controle da consciência
 
-Notes: como perceber o que está sentindo, para saber o próximo passo
+Notes: Como perceber o que está sentindo, para saber o próximo passo
 
 ---
 
 # Barreira inicial quebrada
 
-Notes: conhecer o conceito
+Notes: Conhecer o conceito
 
-perceber como ele se aplica no dia-a-dia
+Perceber como ele se aplica no dia-a-dia
 
-barreira quebrada, fica muito mais fácil de chegar lá de novo
+Barreira quebrada, fica muito mais fácil de chegar lá de novo
 
 ---
 

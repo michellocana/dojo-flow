@@ -1,0 +1,17 @@
+.hobbies {
+  padding: 50px 80px 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 70px;
+  list-style: none;
+  margin: 0;
+  align-items: center;
+}
+
+.hobby {
+  flex: 100px;
+}
+
+.hobby img {
+  width: 100%;
+}
