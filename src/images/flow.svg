@@ -1,0 +1,169 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 501.0721926029282 496.1741860385416">
+  <rect x="0" y="0" width="501.0721926029282" height="496.1741860385416" fill="#ffffff"></rect>
+  <g>
+    <g transform="translate(82.19230769230785 9.443416807772564) rotate(0 0.14019290816969487 217.23394145706203)">
+      <path
+        d="M-0.4509819433093071 1.0506145164370537 C-0.5773998185992241 73.30002306352058, -0.2199866697192193 361.85679931690294, -0.18667706698179254 433.9112997218966 M1.5131138071138412 0.5565831922274085 C1.1623052584845572 72.4437989747307, -0.7890985402744264 360.48769574649947, -1.2327279907744377 432.2671573271137"
+        stroke="#04353c"
+        stroke-width="1"
+        fill="none"
+      ></path>
+    </g>
+  </g>
+  <g>
+    <g transform="translate(386.6325204581789 58.41972680381275) rotate(0 -151.45929500482663 151.1248007637542)">
+      <path
+        d="M-0.7009430810809135 -0.02346685677766791 C-51.31840750636117 50.229253356158736, -252.5512807161339 251.71851608008146, -303.1189297727618 302.208896510303 M1.1319230720121416 -1.0813909019250423 C-49.69208141778179 49.24587517100386, -253.5760717232038 252.45181381034664, -304.0505130816653 303.33099242943337"
+        stroke="#5c940d"
+        stroke-width="1"
+        fill="none"
+      ></path>
+    </g>
+  </g>
+  <g>
+    <g transform="translate(490.3159777860599 443.6966635610195) rotate(0 -203.76375369992496 0.02901558461599052)">
+      <path
+        d="M0.7562148168683052 -0.7545749500393868 C-67.27852095895422 -0.6369621589779855, -339.326426836521 0.291411893069744, -407.7097847436912 0.4701224014163017 M-0.3059111336153 1.4636692558508368 C-68.47994698371713 1.2373965104203672, -340.46163231044886 -1.4620200748462229, -408.2837222167183 -1.4056380866188556"
+        stroke="#04353c"
+        stroke-width="1"
+        fill="none"
+      ></path>
+    </g>
+  </g>
+  <g>
+    <g transform="translate(471.61493520804356 121.65049603458215) rotate(0 -158.6235720252472 159.89381114850752)">
+      <path
+        d="M0.36486121863126764 1.0158845499157907 C-52.54421130638856 53.9777540281415, -263.9490586212048 264.9999193742871, -317.16959202268947 317.83382101804017 M-0.9027253709267825 0.5036199932824821 C-53.91047092221032 53.64983869577758, -265.0128765753707 266.1434538340103, -317.6120052691255 319.28400230373256"
+        stroke="#5c940d"
+        stroke-width="1"
+        fill="none"
+      ></path>
+    </g>
+  </g>
+  <g transform="translate(220.10380826313929 213.67946061971634) rotate(315 53.38052222119063 31.632902057001843)">
+    <text
+      x="0"
+      y="45"
+      font-family="Virgil"
+      font-size="39.10124772462616px"
+      fill="#5c940d"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      FLOW
+    </text>
+  </g>
+  <g transform="translate(209.46153846153675 454.1741860385416) rotate(0 74.5 16)">
+    <text
+      x="0"
+      y="23"
+      font-family="Virgil"
+      font-size="20px"
+      fill="#04353c"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      HABILIDADES
+    </text>
+  </g>
+  <g transform="translate(-0.30769230769328715 207.25110911546534) rotate(270 53.5 16.00000000000003)">
+    <text
+      x="0"
+      y="23"
+      font-family="Virgil"
+      font-size="20px"
+      fill="#04353c"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      DESAFIOS
+    </text>
+  </g>
+  <g transform="translate(113.7692307692297 58.020339884696114) rotate(0 62.5 16)">
+    <text
+      x="0"
+      y="23"
+      font-family="Virgil"
+      font-size="20px"
+      fill="#04353c"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      ANSIEDADE
+    </text>
+  </g>
+  <g transform="translate(392.8461538461527 361.0972629616184) rotate(0 36.5 16)">
+    <text
+      x="0"
+      y="23"
+      font-family="Virgil"
+      font-size="20px"
+      fill="#04353c"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      TÉDIO
+    </text>
+  </g>
+  <g transform="translate(436.4999999999984 452.7895706539257) rotate(0 26 16)">
+    <text
+      x="0"
+      y="23"
+      font-family="Virgil"
+      font-size="20px"
+      fill="#364fc7"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      ALTA
+    </text>
+  </g>
+  <g transform="translate(10 405.8664937308489) rotate(0 32.5 16)">
+    <text
+      x="0"
+      y="23"
+      font-family="Virgil"
+      font-size="20px"
+      fill="#c92a2a"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      BAIXO
+    </text>
+  </g>
+  <g transform="translate(82.5384615384603 452.78957065392524) rotate(0 31.5 16)">
+    <text
+      x="0"
+      y="23"
+      font-family="Virgil"
+      font-size="20px"
+      fill="#c92a2a"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      BAIXA
+    </text>
+  </g>
+  <g transform="translate(21.11538461538271 17.40495526931113) rotate(0 26 16)">
+    <text
+      x="0"
+      y="23"
+      font-family="Virgil"
+      font-size="20px"
+      fill="#364fc7"
+      text-anchor="start"
+      style="white-space: pre;"
+      direction="ltr"
+    >
+      ALTO
+    </text>
+  </g>
+</svg>
