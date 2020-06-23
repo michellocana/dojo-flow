@@ -25,7 +25,7 @@ module.exports = {
   output: {
     path: path.resolve('dist'),
     filename: 'deck.js',
-    publicPath: '/dojo-flow/'
+    publicPath: process.env.NODE_ENV === 'production' ? '/dojo-flow/' : undefined
   },
   devtool: 'source-map',
   module: {

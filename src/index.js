@@ -36,7 +36,7 @@ const template = () => (
       <FullScreen />
     </Box>
     <Box padding='1em'>
-      <Progress />
+      <Progress color='#003f48' />
     </Box>
   </FlexBox>
 )
