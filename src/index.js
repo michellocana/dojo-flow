@@ -15,7 +15,7 @@ const theme = {
     primary: '#003f48',
     secondary: '#04353C',
     tertiary: '#f5feff',
-    quaternary: '#8FB6BB',
+    quaternary: '#04353C',
     quinary: '#04353C'
   },
   fontSizes: {
