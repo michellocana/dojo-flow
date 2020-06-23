@@ -24,7 +24,8 @@ module.exports = {
   entry: './src/index.js', // Default for boilerplate generation.
   output: {
     path: path.resolve('dist'),
-    filename: 'deck.js'
+    filename: 'deck.js',
+    publicPath: '/dojo-flow'
   },
   devtool: 'source-map',
   module: {
