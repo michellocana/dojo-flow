@@ -3780,7 +3780,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".fullscreenMedia {\r\n  display: flex;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  flex-flow: row nowrap;\r\n  --multiply-color: #a5ebf2;\r\n}\r\n\r\n.fullscreenMedia .media {\r\n  width: 100%;\r\n  background-color: var(--multiply-color);\r\n}\r\n\r\n.fullscreenMedia img,\r\n.fullscreenMedia video {\r\n  display: block;\r\n  width: 100%;\r\n  object-fit: cover;\r\n  opacity: 0.5;\r\n  filter: grayscale(100%) brightness(1.3);\r\n  mix-blend-mode: multiply;\r\n}\r\n\r\n.fullscreenMedia .mediaWrapper {\r\n  flex: 55;\r\n  display: flex;\r\n  align-items: center;\r\n  position: relative;\r\n}\r\n\r\n.fullscreenMedia .mediaBackground {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: -1;\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n  background-color: var(--multiply-color);\r\n}\r\n\r\n.fullscreenMedia .mediaBackground img,\r\n.fullscreenMedia .mediaBackground video {\r\n  width: 110%;\r\n  height: 110%;\r\n  object-fit: cover;\r\n  opacity: 0.5;\r\n  filter: grayscale(100%) brightness(1.3) blur(9px);\r\n  margin: -5%;\r\n}\r\n\r\n.fullscreenMedia .titleWrapper {\r\n  flex: 45;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n", ""]);
+exports.push([module.i, ".fullscreenMedia {\r\n  display: flex;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  flex-flow: row nowrap;\r\n  z-index: -1;\r\n  --multiply-color: #a5ebf2;\r\n}\r\n\r\n.fullscreenMedia .media {\r\n  width: 100%;\r\n  background-color: var(--multiply-color);\r\n}\r\n\r\n.fullscreenMedia img,\r\n.fullscreenMedia video {\r\n  display: block;\r\n  width: 100%;\r\n  object-fit: cover;\r\n  opacity: 0.5;\r\n  filter: grayscale(100%) brightness(1.3);\r\n  mix-blend-mode: multiply;\r\n}\r\n\r\n.fullscreenMedia .mediaWrapper {\r\n  flex: 55;\r\n  display: flex;\r\n  align-items: center;\r\n  position: relative;\r\n}\r\n\r\n.fullscreenMedia .mediaBackground {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: -1;\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n  background-color: var(--multiply-color);\r\n}\r\n\r\n.fullscreenMedia .mediaBackground img,\r\n.fullscreenMedia .mediaBackground video {\r\n  width: 110%;\r\n  height: 110%;\r\n  object-fit: cover;\r\n  opacity: 0.5;\r\n  filter: grayscale(100%) brightness(1.3) blur(9px);\r\n  margin: -5%;\r\n}\r\n\r\n.fullscreenMedia .titleWrapper {\r\n  flex: 45;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -37104,7 +37104,9 @@ const template = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a
   padding: "0 1em"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(spectacle__WEBPACK_IMPORTED_MODULE_3__["FullScreen"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(spectacle__WEBPACK_IMPORTED_MODULE_3__["Box"], {
   padding: "1em"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(spectacle__WEBPACK_IMPORTED_MODULE_3__["Progress"], null))); // SPECTACLE_CLI_TEMPLATE_END
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(spectacle__WEBPACK_IMPORTED_MODULE_3__["Progress"], {
+  color: "#003f48"
+}))); // SPECTACLE_CLI_TEMPLATE_END
 
 
 const Presentation = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__["MDXProvider"], {
