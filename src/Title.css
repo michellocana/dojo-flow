@@ -3,6 +3,7 @@
   flex-flow: column;
   align-items: flex-start;
   font-family: 'Merriweather';
+  font-style: italic;
 }
 
 .titleCenter {

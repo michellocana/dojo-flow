@@ -5,7 +5,7 @@ import Title from './Title'
 
 import './FullscreenMedia.css'
 
-function FullscreenMedia({ type, src, children, inverted = false }) {
+function FullscreenMedia({ type, src, children, inverted = false, plainTitle = false, background = true }) {
   function renderMedia() {
     return (
       <div className='mediaWrapper'>
@@ -19,20 +19,26 @@ function FullscreenMedia({ type, src, children, inverted = false }) {
           )}
         </div>
 
-        <div className='mediaBackground'>
-          {type === 'image' ? (
-            <img src={src} />
-          ) : (
-            <video autoPlay muted playsInline loop>
-              <source src={src} type='video/mp4' />
-            </video>
-          )}
-        </div>
+        {background && (
+          <div className='mediaBackground'>
+            {type === 'image' ? (
+              <img src={src} />
+            ) : (
+              <video autoPlay muted playsInline loop>
+                <source src={src} type='video/mp4' />
+              </video>
+            )}
+          </div>
+        )}
       </div>
     )
   }
 
   function renderTitle() {
+    if (plainTitle) {
+      return children
+    }
+
     return (
       <div className='titleWrapper'>
         <Title center={false}>{children}</Title>
