@@ -57,7 +57,7 @@ function FullscreenMedia({ type, src, children, inverted = false, plainTitle = f
 FullscreenMedia.propTypes = {
   type: PropTypes.oneOf(['image', 'video']).isRequired,
   src: PropTypes.string,
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]).isRequired,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   inverted: PropTypes.bool
 }
 

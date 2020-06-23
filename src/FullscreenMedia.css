@@ -6,7 +6,7 @@
   width: 100%;
   height: 100%;
   flex-flow: row nowrap;
-  --multiply-color: #ebfdff;
+  --multiply-color: #a5ebf2;
 }
 
 .fullscreenMedia .media {
